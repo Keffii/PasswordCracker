@@ -1,0 +1,12 @@
+{
+    "makefile.launchConfigurations": [
+        {
+            "cwd": "c:\\Users\\Kevin_Laptop\\Documents\\C++\\Inviduella",
+            "binaryPath": "c:\\Users\\Kevin_Laptop\\Documents\\C++\\Inviduella\\main.exe",
+            "binaryArgs": []
+        }
+    ],
+    "files.associations": {
+        "iostream": "cpp"
+    }
+}
