@@ -5,8 +5,8 @@
 #include <fstream>
 #include <regex>
 #include <string>
-#include "createuser.h"
-#include "menu.h"
+#include "../include/createuser.h"
+#include "../include/menu.h"
 
 int main(){
     menu();
