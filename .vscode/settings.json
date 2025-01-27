@@ -14,6 +14,11 @@
             "cwd": "c:\\Users\\Kevin_Laptop\\Documents\\C++\\PasswordCracker",
             "binaryPath": "c:\\Users\\Kevin_Laptop\\Documents\\C++\\PasswordCracker\\main.exe",
             "binaryArgs": []
+        },
+        {
+            "cwd": "c:\\Users\\keffi\\Documents\\C++\\PasswordCracker",
+            "binaryPath": "c:\\Users\\keffi\\Documents\\C++\\PasswordCracker\\main.exe",
+            "binaryArgs": []
         }
     ],
     "files.associations": {

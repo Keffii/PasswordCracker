@@ -5,10 +5,12 @@
 #include <fstream>
 #include <regex>
 #include <string>
-#include "../include/createuser.h"
 #include "../include/menu.h"
+#include "../include/proccessPasswords.h"
+#include "../include/hashMd5.h"
 
 int main(){
+    proccessPasswords("rockyou.txt", "hashes-md5.txt", "hashes-sha256.txt");
     menu();
     return 0;
 }

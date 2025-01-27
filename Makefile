@@ -1,5 +1,5 @@
 PROG = main.exe 
-SRC = src/main.cpp src/createuser.cpp src/menu.cpp src/testlogin.cpp
+SRC = src/main.cpp src/proccessPasswords.cpp src/hashMd5.cpp src/menu.cpp
 CFLAGS = -g -std=c++17
 LIBS = -lcrypto
 CC=g++
