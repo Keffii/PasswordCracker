@@ -43,8 +43,8 @@ void proccessPasswords(const std::string& input_file, const std::string& md5_out
     std::ofstream md5_outfile(md5_output_file);
     std::ofstream sha256_outfile(sha256_output_file);
 
-    md5_outfile << "Username:hash:salt" << std::endl << std::endl;
-    sha256_outfile << "Username:hash:salt" << std::endl << std::endl;
+    md5_outfile << "Password:hash:salt" << std::endl << std::endl;
+    sha256_outfile << "Password:hash:salt" << std::endl << std::endl;
 
     std::string password;
     while(std::getline(infline, password)){
